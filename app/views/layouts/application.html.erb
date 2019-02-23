@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Test Rails 6 Apps</title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= render 'shared/stylesheets' %>
+    <%= render 'shared/javascripts' %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
