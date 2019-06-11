@@ -1,0 +1,5 @@
+<b><%= t('invitation.notification.title') %></b>
+
+<p><%= t('invitation.notification.body') %></p>
+
+<p><%= link_to t('invitation.notification.action'), accept_invitation_url(token: @invitation.token) %></p>

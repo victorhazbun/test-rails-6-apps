@@ -1,0 +1,7 @@
+<%= t('invitation.notification.title') %>
+
+=====
+
+<%= t('invitation.notification.body') %>
+
+<%= "#{t('invitation.notification.action')}: #{accept_invitation_url(token: @invitation.token)}" %>

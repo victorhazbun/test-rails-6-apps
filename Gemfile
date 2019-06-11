@@ -11,7 +11,6 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'webpacker', '>= 4.0.x'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.4.0', require: false
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'redis', '~> 4.0'
