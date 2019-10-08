@@ -37,7 +37,7 @@ end
 group :test do
   gem 'capybara-selenium', '~> 0.0.6'
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
-  gem 'shoulda-matchers', '~> 4.0'
+  gem 'shoulda-matchers', '~> 4.1.2'
   gem 'simplecov', '~> 0.16.1', require: false
   gem 'timecop', '~> 0.9.1'
   gem 'webmock', '~> 3.5', '>= 3.5.1'
